@@ -35,7 +35,6 @@ int strcmp(const char* s1, const char* s2) {
 }
 
 void putchar(char ch) {
-    // sbi_call(ch, 0, 0, 0, 0, 0, 0, 1 /* Console Putchar */);
     volatile char* printer = (volatile char*)(0x90000000);
     *printer = ch;
 }
