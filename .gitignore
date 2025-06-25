@@ -1,8 +1,8 @@
-*.map
-*.tar
-*.o
-*.elf
+target/
+config.mk
 *.bin
-*.log
-*.pcap
-*.epub
+*.dep
+*.disasm
+*.map
+*.o
+*.raw

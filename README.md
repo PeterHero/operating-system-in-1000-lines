@@ -15,3 +15,7 @@ The book only covers the basics of an operating system. You can do more with the
 | [Shutdown command](https://github.com/nuta/operating-system-in-1000-lines/pull/59/files) | [@calvera](https://github.com/calvera) |
 
 Let me know if you have implemented something interesting!
+
+## This OS as a testing kernel
+
+This purpose of this fork is to use the kernel as a testing OS for [MSIM](https://msim.readthedocs.io) devices.
